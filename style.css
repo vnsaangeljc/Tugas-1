@@ -1,0 +1,55 @@
+#sign-in{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#user-page{
+    height: 100vh;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#side-bar{
+    flex: 2;
+    border-right: 0.5px solid black;
+    padding-right: 5px;
+}
+
+#right-page{
+    flex: 8;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#user-detail{
+    justify-content:space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    line-height: 0;
+}
+
+#main-content table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
